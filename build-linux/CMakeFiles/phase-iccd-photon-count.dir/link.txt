@@ -1,0 +1,1 @@
+/usr/bin/c++    -w -O2 -Dcimg_use_vt100 -Dcimg_use_vt100     CMakeFiles/phase-iccd-photon-count.dir/phase-iccd-photon-count.o CMakeFiles/phase-iccd-photon-count.dir/sin_fit.o  -o phase-iccd-photon-count -rdynamic -lX11 -lXext -lpthread -lX11 -lXext -lpthread 

@@ -26,22 +26,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Applications/CMake 2.8-10.app/Contents/bin/cmake"
+CMAKE_COMMAND = /apps/cmake/2.8.12/bin/cmake
 
 # The command to remove a file.
-RM = "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E remove -f
+RM = /apps/cmake/2.8.12/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = "/Applications/CMake 2.8-10.app/Contents/bin/ccmake"
+CMAKE_EDIT_COMMAND = /apps/cmake/2.8.12/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/new/serpico/programs/fdflimmotion
+CMAKE_SOURCE_DIR = /home2/proudot/project/FD-FLIM/code/fdflimmotion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/new/serpico/programs/fdflimmotion/build
+CMAKE_BINARY_DIR = /home2/proudot/project/FD-FLIM/code/fdflimmotion/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fourier_lifetime.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/fourier_lifetime.dir/flags.make
 
 CMakeFiles/fourier_lifetime.dir/fourier_lifetime.o: CMakeFiles/fourier_lifetime.dir/flags.make
 CMakeFiles/fourier_lifetime.dir/fourier_lifetime.o: ../fourier_lifetime.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fourier_lifetime.dir/fourier_lifetime.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/fourier_lifetime.dir/fourier_lifetime.o -c /Users/new/serpico/programs/fdflimmotion/fourier_lifetime.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/fourier_lifetime.dir/fourier_lifetime.o -c /home2/proudot/project/FD-FLIM/code/fdflimmotion/fourier_lifetime.cpp
 
 CMakeFiles/fourier_lifetime.dir/fourier_lifetime.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fourier_lifetime.dir/fourier_lifetime.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/new/serpico/programs/fdflimmotion/fourier_lifetime.cpp > CMakeFiles/fourier_lifetime.dir/fourier_lifetime.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home2/proudot/project/FD-FLIM/code/fdflimmotion/fourier_lifetime.cpp > CMakeFiles/fourier_lifetime.dir/fourier_lifetime.i
 
 CMakeFiles/fourier_lifetime.dir/fourier_lifetime.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fourier_lifetime.dir/fourier_lifetime.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/new/serpico/programs/fdflimmotion/fourier_lifetime.cpp -o CMakeFiles/fourier_lifetime.dir/fourier_lifetime.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home2/proudot/project/FD-FLIM/code/fdflimmotion/fourier_lifetime.cpp -o CMakeFiles/fourier_lifetime.dir/fourier_lifetime.s
 
 CMakeFiles/fourier_lifetime.dir/fourier_lifetime.o.requires:
 .PHONY : CMakeFiles/fourier_lifetime.dir/fourier_lifetime.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/fourier_lifetime.dir/fourier_lifetime.o.provides.build: CMakeFiles/fo
 
 CMakeFiles/fourier_lifetime.dir/sin_fit.o: CMakeFiles/fourier_lifetime.dir/flags.make
 CMakeFiles/fourier_lifetime.dir/sin_fit.o: ../sin_fit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/fourier_lifetime.dir/sin_fit.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/fourier_lifetime.dir/sin_fit.o -c /Users/new/serpico/programs/fdflimmotion/sin_fit.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/fourier_lifetime.dir/sin_fit.o -c /home2/proudot/project/FD-FLIM/code/fdflimmotion/sin_fit.cpp
 
 CMakeFiles/fourier_lifetime.dir/sin_fit.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fourier_lifetime.dir/sin_fit.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/new/serpico/programs/fdflimmotion/sin_fit.cpp > CMakeFiles/fourier_lifetime.dir/sin_fit.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home2/proudot/project/FD-FLIM/code/fdflimmotion/sin_fit.cpp > CMakeFiles/fourier_lifetime.dir/sin_fit.i
 
 CMakeFiles/fourier_lifetime.dir/sin_fit.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fourier_lifetime.dir/sin_fit.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/new/serpico/programs/fdflimmotion/sin_fit.cpp -o CMakeFiles/fourier_lifetime.dir/sin_fit.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home2/proudot/project/FD-FLIM/code/fdflimmotion/sin_fit.cpp -o CMakeFiles/fourier_lifetime.dir/sin_fit.s
 
 CMakeFiles/fourier_lifetime.dir/sin_fit.o.requires:
 .PHONY : CMakeFiles/fourier_lifetime.dir/sin_fit.o.requires
@@ -109,26 +109,12 @@ fourier_lifetime_EXTERNAL_OBJECTS =
 fourier_lifetime: CMakeFiles/fourier_lifetime.dir/fourier_lifetime.o
 fourier_lifetime: CMakeFiles/fourier_lifetime.dir/sin_fit.o
 fourier_lifetime: CMakeFiles/fourier_lifetime.dir/build.make
-fourier_lifetime: /opt/local/lib/libSM.dylib
-fourier_lifetime: /opt/local/lib/libICE.dylib
-fourier_lifetime: /opt/local/lib/libX11.dylib
-fourier_lifetime: /opt/local/lib/libXext.dylib
-fourier_lifetime: /opt/local/lib/libXrandr.dylib
-fourier_lifetime: /usr/lib/libpthread.dylib
-fourier_lifetime: /opt/local/lib/libpng.dylib
-fourier_lifetime: /usr/lib/libz.dylib
-fourier_lifetime: /opt/local/lib/libjpeg.dylib
-fourier_lifetime: /usr/local/lib/libtiff.dylib
-fourier_lifetime: /opt/local/lib/libSM.dylib
-fourier_lifetime: /opt/local/lib/libICE.dylib
-fourier_lifetime: /opt/local/lib/libX11.dylib
-fourier_lifetime: /opt/local/lib/libXext.dylib
-fourier_lifetime: /opt/local/lib/libXrandr.dylib
-fourier_lifetime: /usr/lib/libpthread.dylib
-fourier_lifetime: /opt/local/lib/libpng.dylib
-fourier_lifetime: /usr/lib/libz.dylib
-fourier_lifetime: /opt/local/lib/libjpeg.dylib
-fourier_lifetime: /usr/local/lib/libtiff.dylib
+fourier_lifetime: /usr/lib64/libX11.so
+fourier_lifetime: /usr/lib64/libXext.so
+fourier_lifetime: /usr/lib64/libpthread.so
+fourier_lifetime: /usr/lib64/libX11.so
+fourier_lifetime: /usr/lib64/libXext.so
+fourier_lifetime: /usr/lib64/libpthread.so
 fourier_lifetime: CMakeFiles/fourier_lifetime.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable fourier_lifetime"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fourier_lifetime.dir/link.txt --verbose=$(VERBOSE)
@@ -146,6 +132,6 @@ CMakeFiles/fourier_lifetime.dir/clean:
 .PHONY : CMakeFiles/fourier_lifetime.dir/clean
 
 CMakeFiles/fourier_lifetime.dir/depend:
-	cd /Users/new/serpico/programs/fdflimmotion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/new/serpico/programs/fdflimmotion /Users/new/serpico/programs/fdflimmotion /Users/new/serpico/programs/fdflimmotion/build /Users/new/serpico/programs/fdflimmotion/build /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/fourier_lifetime.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home2/proudot/project/FD-FLIM/code/fdflimmotion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home2/proudot/project/FD-FLIM/code/fdflimmotion /home2/proudot/project/FD-FLIM/code/fdflimmotion /home2/proudot/project/FD-FLIM/code/fdflimmotion/build /home2/proudot/project/FD-FLIM/code/fdflimmotion/build /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/fourier_lifetime.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fourier_lifetime.dir/depend
 

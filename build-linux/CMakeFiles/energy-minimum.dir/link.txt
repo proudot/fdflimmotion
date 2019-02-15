@@ -1,0 +1,1 @@
+/usr/bin/c++    -w -O2 -Dcimg_use_vt100 -Dcimg_use_vt100     CMakeFiles/energy-minimum.dir/energy-minimum.o CMakeFiles/energy-minimum.dir/sin_fit.o  -o energy-minimum -rdynamic -lX11 -lXext -lpthread -lX11 -lXext -lpthread 

@@ -1,5 +1,0 @@
-/usr/local/bin/fdflimmotion
-/usr/local/bin/FDFLIMRepair
-/usr/local/bin/fourier_lifetime
-/usr/local/bin/abber-impact-tau
-/usr/local/bin/lifetime

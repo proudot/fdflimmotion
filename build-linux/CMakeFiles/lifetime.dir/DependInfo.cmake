@@ -4,37 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/new/serpico/programs/fdflimmotion/lifetime.cpp" "/Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/lifetime.dir/lifetime.o"
-  "/Users/new/serpico/programs/fdflimmotion/sin_fit.cpp" "/Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/lifetime.dir/sin_fit.o"
+  "/home2/proudot/project/FD-FLIM/code/fdflimmotion/lifetime.cpp" "/home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/lifetime.dir/lifetime.o"
+  "/home2/proudot/project/FD-FLIM/code/fdflimmotion/sin_fit.cpp" "/home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/lifetime.dir/sin_fit.o"
   )
-SET(CMAKE_CXX_COMPILER_ID "Clang")
+SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
   "cimg_use_xshm"
-  "cimg_use_xrandr"
-  "cimg_use_png"
-  "cimg_use_zlib"
-  "cimg_use_jpeg"
-  "cimg_use_tiff"
-  "cimg_use_xshm"
-  "cimg_use_xrandr"
-  "cimg_use_png"
-  "cimg_use_zlib"
-  "cimg_use_jpeg"
-  "cimg_use_tiff"
-  "cimg_use_xshm"
-  "cimg_use_xrandr"
-  "cimg_use_png"
-  "cimg_use_zlib"
-  "cimg_use_jpeg"
-  "cimg_use_tiff"
-  "cimg_use_xshm"
-  "cimg_use_xrandr"
-  "cimg_use_png"
-  "cimg_use_zlib"
-  "cimg_use_jpeg"
-  "cimg_use_tiff"
   )
 
 # Targets to which this target links.
@@ -43,9 +20,6 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/opt/local/include"
-  "/usr/X11R6/include"
-  "/usr/local/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -26,22 +26,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Applications/CMake 2.8-10.app/Contents/bin/cmake"
+CMAKE_COMMAND = /apps/cmake/2.8.12/bin/cmake
 
 # The command to remove a file.
-RM = "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E remove -f
+RM = /apps/cmake/2.8.12/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = "/Applications/CMake 2.8-10.app/Contents/bin/ccmake"
+CMAKE_EDIT_COMMAND = /apps/cmake/2.8.12/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/new/serpico/programs/fdflimmotion
+CMAKE_SOURCE_DIR = /home2/proudot/project/FD-FLIM/code/fdflimmotion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/new/serpico/programs/fdflimmotion/build
+CMAKE_BINARY_DIR = /home2/proudot/project/FD-FLIM/code/fdflimmotion/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lifetime.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/lifetime.dir/flags.make
 
 CMakeFiles/lifetime.dir/lifetime.o: CMakeFiles/lifetime.dir/flags.make
 CMakeFiles/lifetime.dir/lifetime.o: ../lifetime.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/lifetime.dir/lifetime.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lifetime.dir/lifetime.o -c /Users/new/serpico/programs/fdflimmotion/lifetime.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lifetime.dir/lifetime.o -c /home2/proudot/project/FD-FLIM/code/fdflimmotion/lifetime.cpp
 
 CMakeFiles/lifetime.dir/lifetime.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lifetime.dir/lifetime.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/new/serpico/programs/fdflimmotion/lifetime.cpp > CMakeFiles/lifetime.dir/lifetime.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home2/proudot/project/FD-FLIM/code/fdflimmotion/lifetime.cpp > CMakeFiles/lifetime.dir/lifetime.i
 
 CMakeFiles/lifetime.dir/lifetime.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lifetime.dir/lifetime.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/new/serpico/programs/fdflimmotion/lifetime.cpp -o CMakeFiles/lifetime.dir/lifetime.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home2/proudot/project/FD-FLIM/code/fdflimmotion/lifetime.cpp -o CMakeFiles/lifetime.dir/lifetime.s
 
 CMakeFiles/lifetime.dir/lifetime.o.requires:
 .PHONY : CMakeFiles/lifetime.dir/lifetime.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/lifetime.dir/lifetime.o.provides.build: CMakeFiles/lifetime.dir/lifet
 
 CMakeFiles/lifetime.dir/sin_fit.o: CMakeFiles/lifetime.dir/flags.make
 CMakeFiles/lifetime.dir/sin_fit.o: ../sin_fit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/lifetime.dir/sin_fit.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lifetime.dir/sin_fit.o -c /Users/new/serpico/programs/fdflimmotion/sin_fit.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lifetime.dir/sin_fit.o -c /home2/proudot/project/FD-FLIM/code/fdflimmotion/sin_fit.cpp
 
 CMakeFiles/lifetime.dir/sin_fit.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lifetime.dir/sin_fit.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/new/serpico/programs/fdflimmotion/sin_fit.cpp > CMakeFiles/lifetime.dir/sin_fit.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home2/proudot/project/FD-FLIM/code/fdflimmotion/sin_fit.cpp > CMakeFiles/lifetime.dir/sin_fit.i
 
 CMakeFiles/lifetime.dir/sin_fit.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lifetime.dir/sin_fit.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/new/serpico/programs/fdflimmotion/sin_fit.cpp -o CMakeFiles/lifetime.dir/sin_fit.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home2/proudot/project/FD-FLIM/code/fdflimmotion/sin_fit.cpp -o CMakeFiles/lifetime.dir/sin_fit.s
 
 CMakeFiles/lifetime.dir/sin_fit.o.requires:
 .PHONY : CMakeFiles/lifetime.dir/sin_fit.o.requires
@@ -109,26 +109,12 @@ lifetime_EXTERNAL_OBJECTS =
 lifetime: CMakeFiles/lifetime.dir/lifetime.o
 lifetime: CMakeFiles/lifetime.dir/sin_fit.o
 lifetime: CMakeFiles/lifetime.dir/build.make
-lifetime: /opt/local/lib/libSM.dylib
-lifetime: /opt/local/lib/libICE.dylib
-lifetime: /opt/local/lib/libX11.dylib
-lifetime: /opt/local/lib/libXext.dylib
-lifetime: /opt/local/lib/libXrandr.dylib
-lifetime: /usr/lib/libpthread.dylib
-lifetime: /opt/local/lib/libpng.dylib
-lifetime: /usr/lib/libz.dylib
-lifetime: /opt/local/lib/libjpeg.dylib
-lifetime: /usr/local/lib/libtiff.dylib
-lifetime: /opt/local/lib/libSM.dylib
-lifetime: /opt/local/lib/libICE.dylib
-lifetime: /opt/local/lib/libX11.dylib
-lifetime: /opt/local/lib/libXext.dylib
-lifetime: /opt/local/lib/libXrandr.dylib
-lifetime: /usr/lib/libpthread.dylib
-lifetime: /opt/local/lib/libpng.dylib
-lifetime: /usr/lib/libz.dylib
-lifetime: /opt/local/lib/libjpeg.dylib
-lifetime: /usr/local/lib/libtiff.dylib
+lifetime: /usr/lib64/libX11.so
+lifetime: /usr/lib64/libXext.so
+lifetime: /usr/lib64/libpthread.so
+lifetime: /usr/lib64/libX11.so
+lifetime: /usr/lib64/libXext.so
+lifetime: /usr/lib64/libpthread.so
 lifetime: CMakeFiles/lifetime.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable lifetime"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lifetime.dir/link.txt --verbose=$(VERBOSE)
@@ -146,6 +132,6 @@ CMakeFiles/lifetime.dir/clean:
 .PHONY : CMakeFiles/lifetime.dir/clean
 
 CMakeFiles/lifetime.dir/depend:
-	cd /Users/new/serpico/programs/fdflimmotion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/new/serpico/programs/fdflimmotion /Users/new/serpico/programs/fdflimmotion /Users/new/serpico/programs/fdflimmotion/build /Users/new/serpico/programs/fdflimmotion/build /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/lifetime.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home2/proudot/project/FD-FLIM/code/fdflimmotion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home2/proudot/project/FD-FLIM/code/fdflimmotion /home2/proudot/project/FD-FLIM/code/fdflimmotion /home2/proudot/project/FD-FLIM/code/fdflimmotion/build /home2/proudot/project/FD-FLIM/code/fdflimmotion/build /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/lifetime.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lifetime.dir/depend
 

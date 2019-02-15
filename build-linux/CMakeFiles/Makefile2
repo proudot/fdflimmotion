@@ -38,22 +38,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Applications/CMake 2.8-10.app/Contents/bin/cmake"
+CMAKE_COMMAND = /apps/cmake/2.8.12/bin/cmake
 
 # The command to remove a file.
-RM = "/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E remove -f
+RM = /apps/cmake/2.8.12/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = "/Applications/CMake 2.8-10.app/Contents/bin/ccmake"
+CMAKE_EDIT_COMMAND = /apps/cmake/2.8.12/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/new/serpico/programs/fdflimmotion
+CMAKE_SOURCE_DIR = /home2/proudot/project/FD-FLIM/code/fdflimmotion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/new/serpico/programs/fdflimmotion/build
+CMAKE_BINARY_DIR = /home2/proudot/project/FD-FLIM/code/fdflimmotion/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/FDFLIMRepair.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /Users/new/serpico/programs/fdflimmotion/build
 CMakeFiles/FDFLIMRepair.dir/all:
 	$(MAKE) -f CMakeFiles/FDFLIMRepair.dir/build.make CMakeFiles/FDFLIMRepair.dir/depend
 	$(MAKE) -f CMakeFiles/FDFLIMRepair.dir/build.make CMakeFiles/FDFLIMRepair.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles  1 2
 	@echo "Built target FDFLIMRepair"
 .PHONY : CMakeFiles/FDFLIMRepair.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/FDFLIMRepair.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FDFLIMRepair.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FDFLIMRepair.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 0
 .PHONY : CMakeFiles/FDFLIMRepair.dir/rule
 
 # Convenience name for target.
@@ -97,7 +97,7 @@ clean: CMakeFiles/FDFLIMRepair.dir/clean
 CMakeFiles/abber-impact-tau.dir/all:
 	$(MAKE) -f CMakeFiles/abber-impact-tau.dir/build.make CMakeFiles/abber-impact-tau.dir/depend
 	$(MAKE) -f CMakeFiles/abber-impact-tau.dir/build.make CMakeFiles/abber-impact-tau.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles  3 4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles  3 4
 	@echo "Built target abber-impact-tau"
 .PHONY : CMakeFiles/abber-impact-tau.dir/all
 
@@ -107,9 +107,9 @@ all: CMakeFiles/abber-impact-tau.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/abber-impact-tau.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/abber-impact-tau.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 0
 .PHONY : CMakeFiles/abber-impact-tau.dir/rule
 
 # Convenience name for target.
@@ -126,13 +126,48 @@ clean: CMakeFiles/abber-impact-tau.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/energy-minimum.dir
+
+# All Build rule for target.
+CMakeFiles/energy-minimum.dir/all:
+	$(MAKE) -f CMakeFiles/energy-minimum.dir/build.make CMakeFiles/energy-minimum.dir/depend
+	$(MAKE) -f CMakeFiles/energy-minimum.dir/build.make CMakeFiles/energy-minimum.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles  5 6
+	@echo "Built target energy-minimum"
+.PHONY : CMakeFiles/energy-minimum.dir/all
+
+# Include target in all.
+all: CMakeFiles/energy-minimum.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/energy-minimum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/energy-minimum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 0
+.PHONY : CMakeFiles/energy-minimum.dir/rule
+
+# Convenience name for target.
+energy-minimum: CMakeFiles/energy-minimum.dir/rule
+.PHONY : energy-minimum
+
+# clean rule for target.
+CMakeFiles/energy-minimum.dir/clean:
+	$(MAKE) -f CMakeFiles/energy-minimum.dir/build.make CMakeFiles/energy-minimum.dir/clean
+.PHONY : CMakeFiles/energy-minimum.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/energy-minimum.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/fdflimmotion.dir
 
 # All Build rule for target.
 CMakeFiles/fdflimmotion.dir/all:
 	$(MAKE) -f CMakeFiles/fdflimmotion.dir/build.make CMakeFiles/fdflimmotion.dir/depend
 	$(MAKE) -f CMakeFiles/fdflimmotion.dir/build.make CMakeFiles/fdflimmotion.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles  5 6 7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles  7 8 9
 	@echo "Built target fdflimmotion"
 .PHONY : CMakeFiles/fdflimmotion.dir/all
 
@@ -142,9 +177,9 @@ all: CMakeFiles/fdflimmotion.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fdflimmotion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fdflimmotion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 0
 .PHONY : CMakeFiles/fdflimmotion.dir/rule
 
 # Convenience name for target.
@@ -167,7 +202,7 @@ clean: CMakeFiles/fdflimmotion.dir/clean
 CMakeFiles/fourier_lifetime.dir/all:
 	$(MAKE) -f CMakeFiles/fourier_lifetime.dir/build.make CMakeFiles/fourier_lifetime.dir/depend
 	$(MAKE) -f CMakeFiles/fourier_lifetime.dir/build.make CMakeFiles/fourier_lifetime.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles  8 9
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles  10 11
 	@echo "Built target fourier_lifetime"
 .PHONY : CMakeFiles/fourier_lifetime.dir/all
 
@@ -177,9 +212,9 @@ all: CMakeFiles/fourier_lifetime.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fourier_lifetime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fourier_lifetime.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 0
 .PHONY : CMakeFiles/fourier_lifetime.dir/rule
 
 # Convenience name for target.
@@ -202,7 +237,7 @@ clean: CMakeFiles/fourier_lifetime.dir/clean
 CMakeFiles/lifetime.dir/all:
 	$(MAKE) -f CMakeFiles/lifetime.dir/build.make CMakeFiles/lifetime.dir/depend
 	$(MAKE) -f CMakeFiles/lifetime.dir/build.make CMakeFiles/lifetime.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles  10 11
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles  12 13
 	@echo "Built target lifetime"
 .PHONY : CMakeFiles/lifetime.dir/all
 
@@ -212,9 +247,9 @@ all: CMakeFiles/lifetime.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lifetime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lifetime.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 0
 .PHONY : CMakeFiles/lifetime.dir/rule
 
 # Convenience name for target.
@@ -228,6 +263,76 @@ CMakeFiles/lifetime.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/lifetime.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/phase-abber-iccd-photon-count-moving.dir
+
+# All Build rule for target.
+CMakeFiles/phase-abber-iccd-photon-count-moving.dir/all:
+	$(MAKE) -f CMakeFiles/phase-abber-iccd-photon-count-moving.dir/build.make CMakeFiles/phase-abber-iccd-photon-count-moving.dir/depend
+	$(MAKE) -f CMakeFiles/phase-abber-iccd-photon-count-moving.dir/build.make CMakeFiles/phase-abber-iccd-photon-count-moving.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles  14 15
+	@echo "Built target phase-abber-iccd-photon-count-moving"
+.PHONY : CMakeFiles/phase-abber-iccd-photon-count-moving.dir/all
+
+# Include target in all.
+all: CMakeFiles/phase-abber-iccd-photon-count-moving.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/phase-abber-iccd-photon-count-moving.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/phase-abber-iccd-photon-count-moving.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 0
+.PHONY : CMakeFiles/phase-abber-iccd-photon-count-moving.dir/rule
+
+# Convenience name for target.
+phase-abber-iccd-photon-count-moving: CMakeFiles/phase-abber-iccd-photon-count-moving.dir/rule
+.PHONY : phase-abber-iccd-photon-count-moving
+
+# clean rule for target.
+CMakeFiles/phase-abber-iccd-photon-count-moving.dir/clean:
+	$(MAKE) -f CMakeFiles/phase-abber-iccd-photon-count-moving.dir/build.make CMakeFiles/phase-abber-iccd-photon-count-moving.dir/clean
+.PHONY : CMakeFiles/phase-abber-iccd-photon-count-moving.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/phase-abber-iccd-photon-count-moving.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/phase-iccd-photon-count.dir
+
+# All Build rule for target.
+CMakeFiles/phase-iccd-photon-count.dir/all:
+	$(MAKE) -f CMakeFiles/phase-iccd-photon-count.dir/build.make CMakeFiles/phase-iccd-photon-count.dir/depend
+	$(MAKE) -f CMakeFiles/phase-iccd-photon-count.dir/build.make CMakeFiles/phase-iccd-photon-count.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles  16 17
+	@echo "Built target phase-iccd-photon-count"
+.PHONY : CMakeFiles/phase-iccd-photon-count.dir/all
+
+# Include target in all.
+all: CMakeFiles/phase-iccd-photon-count.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/phase-iccd-photon-count.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/phase-iccd-photon-count.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles 0
+.PHONY : CMakeFiles/phase-iccd-photon-count.dir/rule
+
+# Convenience name for target.
+phase-iccd-photon-count: CMakeFiles/phase-iccd-photon-count.dir/rule
+.PHONY : phase-iccd-photon-count
+
+# clean rule for target.
+CMakeFiles/phase-iccd-photon-count.dir/clean:
+	$(MAKE) -f CMakeFiles/phase-iccd-photon-count.dir/build.make CMakeFiles/phase-iccd-photon-count.dir/clean
+.PHONY : CMakeFiles/phase-iccd-photon-count.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/phase-iccd-photon-count.dir/clean
 .PHONY : clean
 
 #=============================================================================

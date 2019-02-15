@@ -1,4 +1,4 @@
-The system is: Darwin - 12.2.0 - i386
+The system is: Linux - 2.6.32-504.23.4.el6.x86_64 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is Clang, found in "/Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/2.8.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/2.8.12/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,214 +23,330 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is Clang, found in "/Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/2.8.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/2.8.12/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
+Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3285589010/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3285589010.dir/build.make CMakeFiles/cmTryCompileExec3285589010.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3285589010.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3285589010.dir/testCCompiler.c.o   -c /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec3285589010
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3285589010.dir/link.txt --verbose=1
-/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3285589010.dir/testCCompiler.c.o  -o cmTryCompileExec3285589010  
+Run Build Command:/usr/bin/gmake "cmTryCompileExec971897334/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec971897334.dir/build.make CMakeFiles/cmTryCompileExec971897334.dir/build
+gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
+/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec971897334.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec971897334.dir/testCCompiler.c.o   -c /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec971897334
+/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec971897334.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec971897334.dir/testCCompiler.c.o  -o cmTryCompileExec971897334 -rdynamic 
+gmake[1]: Leaving directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
+Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3627549572/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3627549572.dir/build.make CMakeFiles/cmTryCompileExec3627549572.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3627549572.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3627549572.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
-Linking C executable cmTryCompileExec3627549572
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3627549572.dir/link.txt --verbose=1
-/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3627549572.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3627549572   
-Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
-Target: x86_64-apple-darwin12.2.0
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1018293457/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1018293457.dir/build.make CMakeFiles/cmTryCompileExec1018293457.dir/build
+gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
+/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1018293457.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1018293457.dir/CMakeCCompilerABI.c.o   -c /apps/cmake/2.8.12/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1018293457
+/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1018293457.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1018293457.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1018293457 -rdynamic  
+Using built-in specs.
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
 Thread model: posix
- "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec3627549572 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3627549572.dir/CMakeCCompilerABI.c.o -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/cm/shared/apps/slurm/2.5.7/lib64/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4/:/cm/shared/apps/slurm/2.5.7/lib64/slurm/:/cm/shared/apps/slurm/2.5.7/lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1018293457' '-rdynamic' '-mtune=generic'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1018293457 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/cm/shared/apps/slurm/2.5.7/lib64/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4 -L/cm/shared/apps/slurm/2.5.7/lib64/slurm -L/cm/shared/apps/slurm/2.5.7/lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec1018293457.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3627549572/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3627549572.dir/build.make CMakeFiles/cmTryCompileExec3627549572.dir/build]
-  ignore line: ["/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec3627549572.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3627549572.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTryCompileExec3627549572]
-  ignore line: ["/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3627549572.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3627549572.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3627549572   ]
-  ignore line: [Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)]
-  ignore line: [Target: x86_64-apple-darwin12.2.0]
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1018293457/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1018293457.dir/build.make CMakeFiles/cmTryCompileExec1018293457.dir/build]
+  ignore line: [gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp']
+  ignore line: [/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1018293457.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1018293457.dir/CMakeCCompilerABI.c.o   -c /apps/cmake/2.8.12/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1018293457]
+  ignore line: [/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1018293457.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1018293457.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1018293457 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
   ignore line: [Thread model: posix]
-  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec3627549572 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3627549572.dir/CMakeCCompilerABI.c.o -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
-    arg [/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.8.0] ==> ignore
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/cm/shared/apps/slurm/2.5.7/lib64/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4/:/cm/shared/apps/slurm/2.5.7/lib64/slurm/:/cm/shared/apps/slurm/2.5.7/lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1018293457' '-rdynamic' '-mtune=generic']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1018293457 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/cm/shared/apps/slurm/2.5.7/lib64/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4 -L/cm/shared/apps/slurm/2.5.7/lib64/slurm -L/cm/shared/apps/slurm/2.5.7/lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec1018293457.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec3627549572] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec3627549572.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
-  remove lib [System]
-  implicit libs: [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: []
+    arg [cmTryCompileExec1018293457] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/cm/shared/apps/slurm/2.5.7/lib64/../lib64] ==> dir [/cm/shared/apps/slurm/2.5.7/lib64/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4]
+    arg [-L/cm/shared/apps/slurm/2.5.7/lib64/slurm] ==> dir [/cm/shared/apps/slurm/2.5.7/lib64/slurm]
+    arg [-L/cm/shared/apps/slurm/2.5.7/lib64] ==> dir [/cm/shared/apps/slurm/2.5.7/lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec1018293457.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/cm/shared/apps/slurm/2.5.7/lib64/../lib64] ==> [/cm/shared/apps/slurm/2.5.7/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4]
+  collapse library dir [/cm/shared/apps/slurm/2.5.7/lib64/slurm] ==> [/cm/shared/apps/slurm/2.5.7/lib64/slurm]
+  collapse library dir [/cm/shared/apps/slurm/2.5.7/lib64] ==> [/cm/shared/apps/slurm/2.5.7/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/cm/shared/apps/slurm/2.5.7/lib64;/usr/lib/gcc/x86_64-redhat-linux/4.4.7;/usr/lib64;/lib64;/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64;/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64;/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64;/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4;/cm/shared/apps/slurm/2.5.7/lib64/slurm;/usr/lib]
+  implicit fwks: []
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
+Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1294545145/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1294545145.dir/build.make CMakeFiles/cmTryCompileExec1294545145.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1294545145.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1294545145.dir/testCXXCompiler.cxx.o -c /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec1294545145
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1294545145.dir/link.txt --verbose=1
-/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1294545145.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1294545145  
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2756667761/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2756667761.dir/build.make CMakeFiles/cmTryCompileExec2756667761.dir/build
+gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
+/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2756667761.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2756667761.dir/testCXXCompiler.cxx.o -c /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2756667761
+/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2756667761.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2756667761.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2756667761 -rdynamic 
+gmake[1]: Leaving directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
+Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec980816780/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec980816780.dir/build.make CMakeFiles/cmTryCompileExec980816780.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec980816780.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec980816780.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTryCompileExec980816780
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec980816780.dir/link.txt --verbose=1
-/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec980816780.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec980816780   
-Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
-Target: x86_64-apple-darwin12.2.0
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3865793145/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3865793145.dir/build.make CMakeFiles/cmTryCompileExec3865793145.dir/build
+gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
+/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3865793145.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3865793145.dir/CMakeCXXCompilerABI.cpp.o -c /apps/cmake/2.8.12/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3865793145
+/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3865793145.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3865793145.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3865793145 -rdynamic  
+Using built-in specs.
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
 Thread model: posix
- "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec980816780 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec980816780.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/cm/shared/apps/slurm/2.5.7/lib64/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4/:/cm/shared/apps/slurm/2.5.7/lib64/slurm/:/cm/shared/apps/slurm/2.5.7/lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3865793145' '-rdynamic' '-shared-libgcc' '-mtune=generic'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3865793145 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/cm/shared/apps/slurm/2.5.7/lib64/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4 -L/cm/shared/apps/slurm/2.5.7/lib64/slurm -L/cm/shared/apps/slurm/2.5.7/lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec3865793145.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec980816780/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec980816780.dir/build.make CMakeFiles/cmTryCompileExec980816780.dir/build]
-  ignore line: ["/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec980816780.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec980816780.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTryCompileExec980816780]
-  ignore line: ["/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec980816780.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec980816780.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec980816780   ]
-  ignore line: [Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)]
-  ignore line: [Target: x86_64-apple-darwin12.2.0]
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3865793145/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3865793145.dir/build.make CMakeFiles/cmTryCompileExec3865793145.dir/build]
+  ignore line: [gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp']
+  ignore line: [/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3865793145.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3865793145.dir/CMakeCXXCompilerABI.cpp.o -c /apps/cmake/2.8.12/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3865793145]
+  ignore line: [/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3865793145.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3865793145.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3865793145 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
   ignore line: [Thread model: posix]
-  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec980816780 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec980816780.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
-    arg [/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.8.0] ==> ignore
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/cm/shared/apps/slurm/2.5.7/lib64/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64/:/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4/:/cm/shared/apps/slurm/2.5.7/lib64/slurm/:/cm/shared/apps/slurm/2.5.7/lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3865793145' '-rdynamic' '-shared-libgcc' '-mtune=generic']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3865793145 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o -L/cm/shared/apps/slurm/2.5.7/lib64/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64 -L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4 -L/cm/shared/apps/slurm/2.5.7/lib64/slurm -L/cm/shared/apps/slurm/2.5.7/lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec3865793145.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec980816780] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec980816780.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTryCompileExec3865793145] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/cm/shared/apps/slurm/2.5.7/lib64/../lib64] ==> dir [/cm/shared/apps/slurm/2.5.7/lib64/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64]
+    arg [-L/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4] ==> dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4]
+    arg [-L/cm/shared/apps/slurm/2.5.7/lib64/slurm] ==> dir [/cm/shared/apps/slurm/2.5.7/lib64/slurm]
+    arg [-L/cm/shared/apps/slurm/2.5.7/lib64] ==> dir [/cm/shared/apps/slurm/2.5.7/lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec3865793145.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
-    arg [-lSystem] ==> lib [System]
-    arg [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
-  remove lib [System]
-  implicit libs: [stdc++;/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: []
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/cm/shared/apps/slurm/2.5.7/lib64/../lib64] ==> [/cm/shared/apps/slurm/2.5.7/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/../compiler/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64]
+  collapse library dir [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4] ==> [/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4]
+  collapse library dir [/cm/shared/apps/slurm/2.5.7/lib64/slurm] ==> [/cm/shared/apps/slurm/2.5.7/lib64/slurm]
+  collapse library dir [/cm/shared/apps/slurm/2.5.7/lib64] ==> [/cm/shared/apps/slurm/2.5.7/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/cm/shared/apps/slurm/2.5.7/lib64;/usr/lib/gcc/x86_64-redhat-linux/4.4.7;/usr/lib64;/lib64;/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/compiler/lib/intel64;/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/ipp/lib/intel64;/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/mkl/lib/intel64;/cm/shared/apps/intel/composer_xe_2013_sp1.1.106/tbb/lib/intel64/gcc4.4;/cm/shared/apps/slurm/2.5.7/lib64/slurm;/usr/lib]
+  implicit fwks: []
 
 
-Determining if the function XOpenDisplay exists in the /opt/local/lib/libX11.dylib;/opt/local/lib/libXext.dylib passed with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1602953190/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1602953190.dir/build.make CMakeFiles/cmTryCompileExec1602953190.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1602953190.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec1602953190.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
-Linking C executable cmTryCompileExec1602953190
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1602953190.dir/link.txt --verbose=1
-/usr/bin/cc    -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1602953190.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1602953190  -L/opt/local/lib  /opt/local/lib/libX11.dylib /opt/local/lib/libXext.dylib 
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3330781390/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3330781390.dir/build.make CMakeFiles/cmTryCompileExec3330781390.dir/build
+gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
+/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3330781390.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3330781390.dir/CheckFunctionExists.c.o   -c /apps/cmake/2.8.12/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3330781390
+/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3330781390.dir/link.txt --verbose=1
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3330781390.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3330781390 -rdynamic -lX11 -lXext 
+gmake[1]: Leaving directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
+Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1664419135/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1664419135.dir/build.make CMakeFiles/cmTryCompileExec1664419135.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1664419135.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec1664419135.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
-Linking C executable cmTryCompileExec1664419135
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1664419135.dir/link.txt --verbose=1
-/usr/bin/cc    -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1664419135.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1664419135  
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4278030636/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4278030636.dir/build.make CMakeFiles/cmTryCompileExec4278030636.dir/build
+gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
+/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4278030636.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec4278030636.dir/CheckFunctionExists.c.o   -c /apps/cmake/2.8.12/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4278030636
+/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4278030636.dir/link.txt --verbose=1
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec4278030636.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4278030636 -rdynamic 
+gmake[1]: Leaving directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
+Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2784172373/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2784172373.dir/build.make CMakeFiles/cmTryCompileExec2784172373.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2784172373.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec2784172373.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
-Linking C executable cmTryCompileExec2784172373
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2784172373.dir/link.txt --verbose=1
-/usr/bin/cc    -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=connect -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2784172373.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2784172373  
+Run Build Command:/usr/bin/gmake "cmTryCompileExec896150039/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec896150039.dir/build.make CMakeFiles/cmTryCompileExec896150039.dir/build
+gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
+/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec896150039.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec896150039.dir/CheckFunctionExists.c.o   -c /apps/cmake/2.8.12/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec896150039
+/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec896150039.dir/link.txt --verbose=1
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec896150039.dir/CheckFunctionExists.c.o  -o cmTryCompileExec896150039 -rdynamic 
+gmake[1]: Leaving directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
+Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1108436492/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1108436492.dir/build.make CMakeFiles/cmTryCompileExec1108436492.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1108436492.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1108436492.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
-Linking C executable cmTryCompileExec1108436492
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1108436492.dir/link.txt --verbose=1
-/usr/bin/cc    -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=remove -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1108436492.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1108436492  
+Run Build Command:/usr/bin/gmake "cmTryCompileExec435552864/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec435552864.dir/build.make CMakeFiles/cmTryCompileExec435552864.dir/build
+gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
+/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec435552864.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec435552864.dir/CheckFunctionExists.c.o   -c /apps/cmake/2.8.12/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec435552864
+/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec435552864.dir/link.txt --verbose=1
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec435552864.dir/CheckFunctionExists.c.o  -o cmTryCompileExec435552864 -rdynamic 
+gmake[1]: Leaving directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
+Change Dir: /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2030079854/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2030079854.dir/build.make CMakeFiles/cmTryCompileExec2030079854.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2030079854.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2030079854.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
-Linking C executable cmTryCompileExec2030079854
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2030079854.dir/link.txt --verbose=1
-/usr/bin/cc    -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=shmat -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2030079854.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2030079854  
-
-
-Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec3943642949/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3943642949.dir/build.make CMakeFiles/cmTryCompileExec3943642949.dir/build
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3943642949.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec3943642949.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
-Linking C executable cmTryCompileExec3943642949
-"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3943642949.dir/link.txt --verbose=1
-/usr/bin/cc    -w -Dcimg_use_vt100  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3943642949.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3943642949  -L/opt/local/lib  -lICE 
+Run Build Command:/usr/bin/gmake "cmTryCompileExec609827907/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec609827907.dir/build.make CMakeFiles/cmTryCompileExec609827907.dir/build
+gmake[1]: Entering directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
+/apps/cmake/2.8.12/bin/cmake -E cmake_progress_report /home2/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec609827907.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec609827907.dir/CheckFunctionExists.c.o   -c /apps/cmake/2.8.12/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec609827907
+/apps/cmake/2.8.12/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec609827907.dir/link.txt --verbose=1
+/usr/bin/cc   -w -O2 -Dcimg_use_vt100 -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec609827907.dir/CheckFunctionExists.c.o  -o cmTryCompileExec609827907 -rdynamic 
+gmake[1]: Leaving directory `/work/gdanuser/proudot/project/FD-FLIM/code/fdflimmotion/build/CMakeFiles/CMakeTmp'
 
 
