@@ -1,6 +1,12 @@
 # fdflimmotion
 fdflimmotion enables live cell fluorescence lifetime estimation through the reconstruction lifetime map corrupted by motion artifacts.
 
+Artifact origin in live FD-FLIM
+![alt text](https://raw.githubusercontent.com/proudot/fdflimmotion/master/img/FD-FLIM-postproc-01.png)
+
+Model and results
+![alt text](https://raw.githubusercontent.com/proudot/u-track-PMMS/master/img/model-results-01.png)
+
 # Usage
 
 Build 
