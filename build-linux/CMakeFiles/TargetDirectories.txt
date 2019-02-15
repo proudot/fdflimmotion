@@ -1,0 +1,5 @@
+/Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/FDFLIMRepair.dir
+/Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/abber-impact-tau.dir
+/Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/fdflimmotion.dir
+/Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/fourier_lifetime.dir
+/Users/new/serpico/programs/fdflimmotion/build/CMakeFiles/lifetime.dir
